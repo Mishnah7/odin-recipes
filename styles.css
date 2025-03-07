@@ -5,6 +5,8 @@ body {
   margin: 0;
   padding: 20px;
   line-height: 1.6;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Main heading styles */
@@ -49,4 +51,49 @@ li {
   margin-bottom: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Recipe image styles */
+img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+/* Recipe content styles */
+h2, h3 {
+  color: #2c3e50;
+  margin-top: 30px;
+}
+
+p {
+  color: #34495e;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Recipe list styles */
+.recipe-content ul, 
+.recipe-content ol {
+  max-width: 800px;
+  margin: 20px auto;
+  padding-left: 20px;
+}
+
+.recipe-content ul {
+  list-style-type: disc;
+}
+
+.recipe-content ol {
+  list-style-type: decimal;
+}
+
+.recipe-content li {
+  margin-bottom: 10px;
+  box-shadow: none;
 } 
