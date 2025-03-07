@@ -1,0 +1,52 @@
+/* Basic reset and body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Main heading styles */
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  color: #e67e22;
+  font-size: 24px;
+  display: block;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: white;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Link hover effect */
+a:hover {
+  background-color: #e67e22;
+  color: white;
+  transform: translateX(10px);
+}
+
+/* List item styles */
+li {
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} 
